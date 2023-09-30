@@ -73,3 +73,17 @@ matches:
         <li></li>
         <li></li>
       </ol>
+
+  - triggers: [":html", "Lorem picsum"]
+    label: "Lorem Picsum"
+    replace: '<img src="https://picsum.photos/{{lorem.width}}/{{lorem.height}}" alt="$|$">'
+    vars:
+      - name: "lorem"
+        type: form
+        params:
+          layout: "Breite: [[width]], Höhe: [[height]] (Nur Zahlen)"
+
+
+  - triggers: [":html", "Lorem ipsum"]
+    label: "Lorem Ipsum"
+    replace: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
