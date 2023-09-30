@@ -1,0 +1,60 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  # Hashtags
+
+- trigger: "#"
+  replace: "#ALP"
+- trigger: "#"
+  replace: "#Bayern"
+- trigger: "#"
+  replace: "#Bildung"
+- trigger: "#"
+  replace: "#ByCS"
+- trigger: "#"
+  replace: "#CSS"
+- trigger: "#"
+  replace: "#Coding"
+- trigger: "#"
+  replace: "#Dasgehtauchmitmebis"
+- trigger: "#"
+  replace: "#DigitalLearning"
+- trigger: "#"
+  replace: "#Dillingen"
+- trigger: "#"
+  replace: "#Digitales"
+- trigger: "#"
+  replace: "#eLearning"
+- trigger: "#"
+  replace: "#FediLZ"
+- trigger: "#"
+  replace: "#HTML"
+- trigger: "#"
+  replace: "#Lehrer"
+- trigger: "#"
+  replace: "#MdRzA"
+- trigger: "#"
+  replace: "#mebis"
+- trigger: "#"
+  replace: "#mebis_bayern"
+- trigger: "#"
+  replace: "#MoodleBande"
+- trigger: "#"
+  replace: "#moodle"
+- trigger: "#"
+  replace: "#Realschule"
+- trigger: "#"
+  replace: "#Schule"
+- trigger: "#"
+  replace: "#wowdw"
+
+
+
