@@ -1,0 +1,75 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  # html
+
+  - trigger: ':('
+    replace: '($|$)'
+  - trigger: ':['
+    replace: '[$|$]'
+  - trigger: ':{'
+    replace: '{$|$}'
+  - trigger: ':<'
+    replace: '<$|$>'
+  - trigger: ':`'
+    replace: '`$|$`'
+  - trigger: ":\'"
+    replace: "\'$|$\'"
+  - trigger: ':"'
+    replace: '"$|$"'
+  - trigger: ':_'
+    replace: '_$|$_'
+  - trigger: ':*'
+    replace: '*$|$*'
+  - trigger: ':-'
+    replace: '-$|$-' 
+  
+  # Inserts any custom HTML, XML or web component tag 
+    
+  - trigger: ":html"
+    label: HTML-Tag
+    replace: "<{{html.element}}>$|$</{{html.element}}>"
+    vars:
+    - name: "html"
+      type: form
+      params:
+        layout: "XML / HTML Element Inserter\nTag Name: [[element]]"
+        fields: { element: { type: text }}
+
+  # Inserts any custom HTML, XML or web component tag 
+    
+  - trigger: ":html"
+    label: Ausklapptext <details>
+    replace: "<details><summary>{{details.element}}</summary>$|$</details>"
+    vars:
+    - name: "details"
+      type: form
+      params:
+        layout: "Beschreibung: [[element]]"
+        fields: { element: { type: text }}
+
+  - trigger: ":html"
+    label: "Liste Aufzählung <ul>"
+    replace: |
+      <ul>
+        <li>$|$</li>
+        <li></li>
+        <li></li>
+      </ul>
+
+  - trigger: ":html"
+    label: "Liste Nummerierung <ol>"
+    replace: |
+      <ol>
+        <li>$|$</li>
+        <li></li>
+        <li></li>
+      </ol>

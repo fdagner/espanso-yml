@@ -1,0 +1,840 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+# Alert
+
+  - trigger: '.alert'
+    label: 'Primary'
+    replace: |
+      <div class="alert alert-primary" role="alert">
+      $|$
+      </div>
+
+  - trigger: '.alert'
+    label: 'Secondary'
+    replace: |
+      <div class="alert alert-secondary" role="alert">
+      $|$
+      </div>
+
+  - trigger: '.alert'
+    label: 'Success'
+    replace: |
+      <div class="alert alert-success" role="alert">
+      $|$
+      </div>
+
+  - trigger: '.alert'
+    label: 'Danger'
+    replace: |
+      <div class="alert alert-danger" role="alert">
+      $|$
+      </div>
+
+  - trigger: '.alert'
+    label: 'Warning'
+    replace: |
+      <div class="alert alert-warning" role="alert">
+      $|$
+      </div>
+
+  - trigger: '.alert'
+    label: 'Info'
+    replace: |
+      <div class="alert alert-info" role="alert">
+      $|$
+      </div>
+
+  - trigger: '.alert'
+    label: 'Light'
+    replace: |
+      <div class="alert alert-light" role="alert">
+      $|$
+      </div>
+      
+  - trigger: '.alert'
+    label: 'Dark'
+    replace: |
+      <div class="alert alert-dark" role="alert">
+      $|$
+      </div>
+
+# Badge
+
+  - trigger: '.badge'
+    label: 'Primary Badge'
+    replace: |
+      <span class="badge badge-primary">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Secondary Badge'
+    replace: |
+      <span class="badge badge-secondary">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Success Badge'
+    replace: |
+      <span class="badge badge-success">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Danger Badge'
+    replace: |
+      <span class="badge badge-danger">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Warning Badge'
+    replace: |
+      <span class="badge badge-warning">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Info Badge'
+    replace: |
+      <span class="badge badge-info">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Light Badge'
+    replace: |
+      <span class="badge badge-light">
+      $|$
+      </span>
+
+  - trigger: '.badge'
+    label: 'Dark Badge'
+    replace: |
+      <span class="badge badge-dark">
+      $|$
+      </span>
+
+# Link-Button
+
+  - trigger: 'a.btn'
+    label: 'Primary Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-primary">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Secondary Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-secondary">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Success Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-success">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Danger Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-danger">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Warning Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-warning">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Info Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-info">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Light Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-light">
+      $|$
+      </a>
+
+  - trigger: 'a.btn'
+    label: 'Dark Link-Button'
+    replace: |
+      <a href="#" role="button" type="button" class="btn btn-dark">
+      $|$
+      </a>
+
+# Buttons
+
+  - trigger: '.btn'
+    label: 'Primary Button'
+    replace: |
+      <button type="button" class="btn btn-primary">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Secondary Button'
+    replace: |
+      <button type="button" class="btn btn-secondary">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Success Button'
+    replace: |
+      <button type="button" class="btn btn-success">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Danger Button'
+    replace: |
+      <button type="button" class="btn btn-danger">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Warning Button'
+    replace: |
+      <button type="button" class="btn btn-warning">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Info Button'
+    replace: |
+      <button type="button" class="btn btn-info">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Light Button'
+    replace: |
+      <button type="button" class="btn btn-light">
+      $|$
+      </button>
+
+  - trigger: '.btn'
+    label: 'Dark Button'
+    replace: |
+      <button type="button" class="btn btn-dark">
+      $|$
+      </button>
+
+
+# Background
+
+  - trigger: '.bg'
+    label: 'Primary Background'
+    replace: |
+      <div class="bg-primary">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Secondary Background'
+    replace: |
+      <div class="bg-secondary">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Success Background'
+    replace: |
+      <div class="bg-success">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Danger Background'
+    replace: |
+      <div class="bg-danger">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Warning Background'
+    replace: |
+      <div class="bg-warning">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Info Background'
+    replace: |
+      <div class="bg-info">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Light Background'
+    replace: |
+      <div class="bg-light">
+      $|$
+      </div>
+
+  - trigger: '.bg'
+    label: 'Dark Background'
+    replace: |
+      <div class="bg-dark">
+      $|$
+      </div>
+
+  - trigger: 'header'
+    label: 'Header'
+    replace: |
+      <header>
+      $|$
+      </header>
+
+# Collapse
+
+  - trigger: '.collapse'
+    replace: |
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+      $|$
+      </button>
+      <div class="collapse" id="collapse1">
+      <div class="card card-body">
+      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+      </div>
+
+
+# Modal
+
+  - trigger: '.modal'
+    replace: |
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal1">
+      $|$
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1Label" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+      <div class="modal-header">
+      <h5 class="modal-title" id="Modal1Label">Modal title</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      ...
+      </div>
+      <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Schließen</button>
+      </div>
+      </div>
+      </div>
+      </div>
+
+# Table
+
+  - trigger: '.table'
+    label: "Tabelle ohne"
+    replace: |
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabelle Primary"
+    replace: |
+      <table class="table table-primary table-striped">
+        <!-- Tabelle mit primärem Hintergrund -->
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabelle Secondary"
+    replace: |
+      <table class="table table-secondary table-striped">
+        <!-- Tabelle mit sekundärem Hintergrund -->
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabelle Success"
+    replace: |
+      <table class="table table-success table-striped">
+        <!-- Tabelle mit Erfolgs-Hintergrund -->
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabelle Danger"
+    replace: |
+      <table class="table table-danger table-striped">
+        <!-- Tabelle mit Gefahren-Hintergrund -->
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabelle Warning"
+    replace: |
+      <table class="table table-warning table-striped">
+        <!-- Tabelle mit Warnungs-Hintergrund -->
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabelle Info"
+    replace: |
+      <table class="table table-info table-striped">
+        <!-- Tabelle mit Informations-Hintergrund -->
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+      
+  - trigger: '.table'
+    label: "Tabellenkopf ohne"
+    replace: |
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabellenkopf Primary"
+    replace: |
+      <table class="table table-striped">
+        <!-- Tabelle mit primärem Hintergrund -->
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabellenkopf Secondary"
+    replace: |
+      <table class="table table-striped">
+        <!-- Tabelle mit sekundärem Hintergrund -->
+        <thead>
+          <tr class="table-secondary">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabellenkopf Success"
+    replace: |
+      <table class="table table-striped">
+        <!-- Tabelle mit Erfolgs-Hintergrund -->
+        <thead>
+          <tr class="table-success">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabellenkopf Danger"
+    replace: |
+      <table class="table table-striped">
+        <!-- Tabelle mit Gefahren-Hintergrund -->
+        <thead>
+          <tr class="table-danger">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabellenkopf Warning"
+    replace: |
+      <table class="table table-striped">
+        <!-- Tabelle mit Warnungs-Hintergrund -->
+        <thead>
+          <tr class="table-Warning">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  - trigger: '.table'
+    label: "Tabellenkopf Info"
+    replace: |
+      <table class="table table-info table-striped">
+        <!-- Tabelle mit Informations-Hintergrund -->
+        <thead>
+          <tr class="table-info">
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+
+  # Card
+  - trigger: '.card'
+    replace: |
+              <div class="card" style="width: 100%;max-width: 500px;" class="box" id="item1">
+              <div class="card-header alert-danger"><h5>Aufgabe</h5></div><div class="card-body"><p class="card-text">
+              $|$
+              </p><br></div>
+              <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+              <i class="fa-solid fa-user"></i><i class="fa-solid fa-user"></i> Partnerarbeit<br>
+              <i class="fa-solid fa-share"></i> Formulieren<br><i class="fa-solid fa-clock-rotate-left"></i> 5 Min
+              </li>
+              </ul>
+              </div>

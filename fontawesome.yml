@@ -1,0 +1,570 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  # Icons
+
+  - trigger: '.fa'
+    label: 'Address Book Icon'
+    replace: '<i class="fas fa-address-book"></i>'
+
+  - trigger: '.fa'
+    label: 'Air Freshener Icon'
+    replace: '<i class="fas fa-air-freshener"></i>'
+
+  - trigger: '.fa'
+    label: 'Ambulance Icon'
+    replace: '<i class="fas fa-ambulance"></i>'
+
+  - trigger: '.fa'
+    label: 'Anchor Icon'
+    replace: '<i class="fas fa-anchor"></i>'
+
+  - trigger: '.fa'
+    label: 'Apple Icon'
+    replace: '<i class="fa-brands fa-apple"></i>'
+
+  - trigger: '.fa'
+    label: 'Apple Whole Icon'
+    replace: '<i class="fa-solid fa-apple-whole"></i>'
+
+  - trigger: '.fa'
+    label: 'Archive Icon'
+    replace: '<i class="fas fa-archive"></i>'
+
+  - trigger: '.fa'
+    label: 'Atom Icon'
+    replace: '<i class="fas fa-atom"></i>'
+
+  - trigger: '.fa'
+    label: 'Baby Icon'
+    replace: '<i class="fas fa-baby"></i>'
+
+  - trigger: '.fa'
+    label: 'Ban Icon'
+    replace: '<i class="fas fa-ban"></i>'
+
+  - trigger: '.fa'
+    label: 'Baseball Icon'
+    replace: '<i class="fas fa-baseball"></i>'
+
+  - trigger: '.fa'
+    label: 'Basketball Icon'
+    replace: '<i class="fas fa-basketball"></i>'
+
+  - trigger: '.fa'
+    label: 'Bath Icon'
+    replace: '<i class="fas fa-bath"></i>'
+
+  - trigger: '.fa'
+    label: 'Battery Empty Icon'
+    replace: '<i class="fas fa-battery-empty"></i>'
+
+  - trigger: '.fa'
+    label: 'Bed Icon'
+    replace: '<i class="fas fa-bed"></i>'
+
+  - trigger: '.fa'
+    label: 'Beer Icon'
+    replace: '<i class="fas fa-beer"></i>'
+
+  - trigger: '.fa'
+    label: 'Bell Icon'
+    replace: '<i class="fas fa-bell"></i>'
+
+  - trigger: '.fa'
+    label: 'Bicycle Icon'
+    replace: '<i class="fas fa-bicycle"></i>'
+
+  - trigger: '.fa'
+    label: 'Binoculars Icon'
+    replace: '<i class="fas fa-binoculars"></i>'
+
+  - trigger: '.fa'
+    label: 'Birthday Cake Icon'
+    replace: '<i class="fas fa-birthday-cake"></i>'
+
+  - trigger: '.fa'
+    label: 'Book Icon'
+    replace: '<i class="fas fa-book"></i>'
+
+  - trigger: '.fa'
+    label: 'Bookmark Icon'
+    replace: '<i class="fas fa-bookmark"></i>'
+
+  - trigger: '.fa'
+    label: 'Briefcase Icon'
+    replace: '<i class="fas fa-briefcase"></i>'
+
+  - trigger: '.fa'
+    label: 'Building Icon'
+    replace: '<i class="fas fa-building"></i>'
+
+  - trigger: '.fa'
+    label: 'Bus Icon'
+    replace: '<i class="fas fa-bus"></i>'
+
+  - trigger: '.fa'
+    label: 'Calculator Icon'
+    replace: '<i class="fas fa-calculator"></i>'
+
+  - trigger: '.fa'
+    label: 'Calendar Icon'
+    replace: '<i class="fas fa-calendar"></i>'
+
+  - trigger: '.fa'
+    label: 'Camera Icon'
+    replace: '<i class="fas fa-camera"></i>'
+
+  - trigger: '.fa'
+    label: 'Car Icon'
+    replace: '<i class="fas fa-car"></i>'
+
+  - trigger: '.fa'
+    label: 'Cat Icon'
+    replace: '<i class="fas fa-cat"></i>'
+
+  - trigger: '.fa'
+    label: 'Chair Icon'
+    replace: '<i class="fas fa-chair"></i>'
+
+  - trigger: '.fa'
+    label: 'Chart Bar Icon'
+    replace: '<i class="fas fa-chart-bar"></i>'
+
+  - trigger: '.fa'
+    label: 'Check Circle Icon'
+    replace: '<i class="fas fa-check-circle"></i>'
+
+  - trigger: '.fa'
+    label: 'Chess Icon'
+    replace: '<i class="fas fa-chess"></i>'
+
+  - trigger: '.fa'
+    label: 'Church Icon'
+    replace: '<i class="fas fa-church"></i>'
+
+  - trigger: '.fa'
+    label: 'Circle Icon'
+    replace: '<i class="fas fa-circle"></i>'
+
+  - trigger: '.fa'
+    label: 'Clock Rotate'
+    replace: '<i class="fa-solid fa-clock-rotate-left"></i>'
+
+  - trigger: '.fa'
+    label: 'Clock'
+    replace: '<i class="fa-regular fa-clock"></i>'
+
+  - trigger: '.fa'
+    label: 'Cloud Icon'
+    replace: '<i class="fas fa-cloud"></i>'
+
+  - trigger: '.fa'
+    label: 'Coffee Icon'
+    replace: '<i class="fas fa-coffee"></i>'
+
+  - trigger: '.fa'
+    label: 'Cog Icon'
+    replace: '<i class="fas fa-cog"></i>'
+
+  - trigger: '.fa'
+    label: 'Comment'
+    replace: '<i class="fa-regular fa-comment"></i>'
+
+  - trigger: '.fa'
+    label: 'Cookie Icon'
+    replace: '<i class="fas fa-cookie"></i>'
+
+  - trigger: '.fa'
+    label: 'Couch Icon'
+    replace: '<i class="fas fa-couch"></i>'
+
+  - trigger: '.fa'
+    label: 'Credit Card Icon'
+    replace: '<i class="fas fa-credit-card"></i>'
+
+  - trigger: '.fa'
+    label: 'Crown Icon'
+    replace: '<i class="fas fa-crown"></i>'
+
+  - trigger: '.fa'
+    label: 'Cube Icon'
+    replace: '<i class="fas fa-cube"></i>'
+
+  - trigger: '.fa'
+    label: 'Cut Icon'
+    replace: '<i class="fas fa-cut"></i>'
+
+  - trigger: '.fa'
+    label: 'Database Icon'
+    replace: '<i class="fas fa-database"></i>'
+
+  - trigger: '.fa'
+    label: 'Dice Icon'
+    replace: '<i class="fas fa-dice"></i>'
+
+  - trigger: '.fa'
+    label: 'Dog Icon'
+    replace: '<i class="fas fa-dog"></i>'
+
+  - trigger: '.fa'
+    label: 'Dollar Sign Icon'
+    replace: '<i class="fas fa-dollar-sign"></i>'
+
+  - trigger: '.fa'
+    label: 'Door Open Icon'
+    replace: '<i class="fas fa-door-open"></i>'
+
+  - trigger: '.fa'
+    label: 'Dumbbell Icon'
+    replace: '<i class="fas fa-dumbbell"></i>'
+
+  - trigger: '.fa'
+    label: 'Envelope Icon'
+    replace: '<i class="fas fa-envelope"></i>'
+
+  - trigger: '.fa'
+    label: 'Exclamation Circle Icon'
+    replace: '<i class="fas fa-exclamation-circle"></i>'
+
+  - trigger: '.fa'
+    label: 'Eye Icon'
+    replace: '<i class="fas fa-eye"></i>'
+
+  - trigger: '.fa'
+    label: 'Fast Forward Icon'
+    replace: '<i class="fas fa-fast-forward"></i>'
+
+  - trigger: '.fa'
+    label: 'File Icon'
+    replace: '<i class="fas fa-file"></i>'
+
+  - trigger: '.fa'
+    label: 'Film Icon'
+    replace: '<i class="fas fa-film"></i>'
+
+  - trigger: '.fa'
+    label: 'Fire Icon'
+    replace: '<i class="fas fa-fire"></i>'
+
+  - trigger: '.fa'
+    label: 'Fish Icon'
+    replace: '<i class="fas fa-fish"></i>'
+
+  - trigger: '.fa'
+    label: 'Flag Icon'
+    replace: '<i class="fas fa-flag"></i>'
+
+  - trigger: '.fa'
+    label: 'Flask Icon'
+    replace: '<i class="fas fa-flask"></i>'
+
+  - trigger: '.fa'
+    label: 'Football Icon'
+    replace: '<i class="fas fa-football"></i>'
+
+  - trigger: '.fa'
+    label: 'Frown Icon'
+    replace: '<i class="fas fa-frown"></i>'
+
+  - trigger: '.fa'
+    label: 'Gamepad Icon'
+    replace: '<i class="fas fa-gamepad"></i>'
+
+  - trigger: '.fa'
+    label: 'Gift Icon'
+    replace: '<i class="fas fa-gift"></i>'
+
+  - trigger: '.fa'
+    label: 'Globe Icon'
+    replace: '<i class="fas fa-globe"></i>'
+
+  - trigger: '.fa'
+    label: 'Graduation Cap Icon'
+    replace: '<i class="fas fa-graduation-cap"></i>'
+
+  - trigger: '.fa'
+    label: 'Guitar Icon'
+    replace: '<i class="fas fa-guitar"></i>'
+
+  - trigger: '.fa'
+    label: 'Handshake Icon'
+    replace: '<i class="fas fa-handshake"></i>'
+
+  - trigger: '.fa'
+    label: 'Heart Icon'
+    replace: '<i class="fas fa-heart"></i>'
+
+  - trigger: '.fa'
+    label: 'Helicopter Icon'
+    replace: '<i class="fas fa-helicopter"></i>'
+
+  - trigger: '.fa'
+    label: 'Home Icon'
+    replace: '<i class="fas fa-home"></i>'
+
+  - trigger: '.fa'
+    label: 'Hourglass Icon'
+    replace: '<i class="fas fa-hourglass"></i>'
+
+  - trigger: '.fa'
+    label: 'Ice Cream Icon'
+    replace: '<i class="fas fa-ice-cream"></i>'
+
+  - trigger: '.fa'
+    label: 'Inbox Icon'
+    replace: '<i class="fas fa-inbox"></i>'
+
+  - trigger: '.fa'
+    label: 'Key Icon'
+    replace: '<i class="fas fa-key"></i>'
+
+  - trigger: '.fa'
+    label: 'Laptop Icon'
+    replace: '<i class="fas fa-laptop"></i>'
+
+  - trigger: '.fa'
+    label: 'Leaf Icon'
+    replace: '<i class="fas fa-leaf"></i>'
+
+  - trigger: '.fa'
+    label: 'Lightbulb Icon'
+    replace: '<i class="fas fa-lightbulb"></i>'
+
+  - trigger: '.fa'
+    label: 'Lock Icon'
+    replace: '<i class="fas fa-lock"></i>'
+
+  - trigger: '.fa'
+    label: 'Magic Icon'
+    replace: '<i class="fas fa-magic"></i>'
+
+  - trigger: '.fa'
+    label: 'Map Icon'
+    replace: '<i class="fas fa-map"></i>'
+
+  - trigger: '.fa'
+    label: 'Microphone Icon'
+    replace: '<i class="fas fa-microphone"></i>'
+
+  - trigger: '.fa'
+    label: 'Moon Icon'
+    replace: '<i class="fas fa-moon"></i>'
+
+  - trigger: '.fa'
+    label: 'Motorcycle Icon'
+    replace: '<i class="fas fa-motorcycle"></i>'
+
+  - trigger: '.fa'
+    label: 'Music Icon'
+    replace: '<i class="fas fa-music"></i>'
+
+  - trigger: '.fa'
+    label: 'Paint Brush Icon'
+    replace: '<i class="fas fa-paint-brush"></i>'
+
+  - trigger: '.fa'
+    label: 'Paper Plane Icon'
+    replace: '<i class="fas fa-paper-plane"></i>'
+
+  - trigger: '.fa'
+    label: 'Paw Icon'
+    replace: '<i class="fas fa-paw"></i>'
+
+  - trigger: '.fa'
+    label: 'Pen Icon'
+    replace: '<i class="fas fa-pen"></i>'
+
+  - trigger: '.fa'
+    label: 'People Group'
+    replace: '<i class="fa-solid fa-people-group"></i>'
+
+  - trigger: '.fa'
+    label: 'Phone Icon'
+    replace: '<i class="fas fa-phone"></i>'
+
+  - trigger: '.fa'
+    label: 'Pizza Icon'
+    replace: '<i class="fas fa-pizza"></i>'
+
+  - trigger: '.fa'
+    label: 'Plug Icon'
+    replace: '<i class="fas fa-plug"></i>'
+
+  - trigger: '.fa'
+    label: 'Print Icon'
+    replace: '<i class="fas fa-print"></i>'
+
+  - trigger: '.fa'
+    label: 'Puzzle Piece Icon'
+    replace: '<i class="fas fa-puzzle-piece"></i>'
+
+  - trigger: '.fa'
+    label: 'Question Circle Icon'
+    replace: '<i class="fas fa-question-circle"></i>'
+
+  - trigger: '.fa'
+    label: 'Rainbow Icon'
+    replace: '<i class="fas fa-rainbow"></i>'
+
+  - trigger: '.fa'
+    label: 'Robot Icon'
+    replace: '<i class="fas fa-robot"></i>'
+
+  - trigger: '.fa'
+    label: 'Rocket Icon'
+    replace: '<i class="fas fa-rocket"></i>'
+
+  - trigger: '.fa'
+    label: 'Ruler Icon'
+    replace: '<i class="fas fa-ruler"></i>'
+
+  - trigger: '.fa'
+    label: 'Running Icon'
+    replace: '<i class="fas fa-running"></i>'
+
+  - trigger: '.fa'
+    label: 'Satellite Icon'
+    replace: '<i class="fas fa-satellite"></i>'
+
+  - trigger: '.fa'
+    label: 'School Icon'
+    replace: '<i class="fas fa-school"></i>'
+
+  - trigger: '.fa'
+    label: 'Search Icon'
+    replace: '<i class="fas fa-search"></i>'
+
+  - trigger: '.fa'
+    label: 'Server Icon'
+    replace: '<i class="fas fa-server"></i>'
+
+  - trigger: '.fa'
+    label: 'Shoe Prints Icon'
+    replace: '<i class="fas fa-shoe-prints"></i>'
+
+  - trigger: '.fa'
+    label: 'Skull Icon'
+    replace: '<i class="fas fa-skull"></i>'
+
+  - trigger: '.fa'
+    label: 'Smile Icon'
+    replace: '<i class="fas fa-smile"></i>'
+
+  - trigger: '.fa'
+    label: 'Snowflake Icon'
+    replace: '<i class="fas fa-snowflake"></i>'
+
+  - trigger: '.fa'
+    label: 'Space Shuttle Icon'
+    replace: '<i class="fas fa-space-shuttle"></i>'
+
+  - trigger: '.fa'
+    label: 'Star Icon'
+    replace: '<i class="fas fa-star"></i>'
+
+  - trigger: '.fa'
+    label: 'Sun Icon'
+    replace: '<i class="fas fa-sun"></i>'
+
+  - trigger: '.fa'
+    label: 'Swimming Pool Icon'
+    replace: '<i class="fas fa-swimming-pool"></i>'
+
+  - trigger: '.fa'
+    label: 'Sync Icon'
+    replace: '<i class="fas fa-sync"></i>'
+
+  - trigger: '.fa'
+    label: 'Tag Icon'
+    replace: '<i class="fas fa-tag"></i>'
+
+  - trigger: '.fa'
+    label: 'Tennis Ball Icon'
+    replace: '<i class="fas fa-tennis-ball"></i>'
+
+  - trigger: '.fa'
+    label: 'Thumbs Up Icon'
+    replace: '<i class="fas fa-thumbs-up"></i>'
+
+  - trigger: '.fa'
+    label: 'Ticket Icon'
+    replace: '<i class="fas fa-ticket"></i>'
+
+  - trigger: '.fa'
+    label: 'Toilet Icon'
+    replace: '<i class="fas fa-toilet"></i>'
+
+  - trigger: '.fa'
+    label: 'Tools Icon'
+    replace: '<i class="fas fa-tools"></i>'
+
+  - trigger: '.fa'
+    label: 'Train Icon'
+    replace: '<i class="fas fa-train"></i>'
+
+  - trigger: '.fa'
+    label: 'Tree Icon'
+    replace: '<i class="fas fa-tree"></i>'
+
+  - trigger: '.fa'
+    label: 'Trophy Icon'
+    replace: '<i class="fas fa-trophy"></i>'
+
+  - trigger: '.fa'
+    label: 'Truck Icon'
+    replace: '<i class="fas fa-truck"></i>'
+
+  - trigger: '.fa'
+    label: 'Umbrella Icon'
+    replace: '<i class="fas fa-umbrella"></i>'
+
+  - trigger: '.fa'
+    label: 'User Icon'
+    replace: '<i class="fas fa-user"></i>'
+
+  - trigger: '.fa'
+    label: 'Video Icon'
+    replace: '<i class="fas fa-video"></i>'
+
+  - trigger: '.fa'
+    label: 'Wallet Icon'
+    replace: '<i class="fas fa-wallet"></i>'
+
+  - trigger: '.fa'
+    label: 'Wheelchair Icon'
+    replace: '<i class="fas fa-wheelchair"></i>'
+
+  - trigger: '.fa'
+    label: 'Wifi Icon'
+    replace: '<i class="fas fa-wifi"></i>'
+
+  - trigger: '.fa'
+    label: 'Wine Glass Icon'
+    replace: '<i class="fas fa-wine-glass"></i>'
+
+  - trigger: '.fa'
+    label: 'Yin Yang Icon'
+    replace: '<i class="fas fa-yin-yang"></i>'
+
+# Sozialform
+  - trigger: ':sozialform'
+    replace: '<i class="fa-solid fa-user"></i> Einzelarbeit'
+  - trigger: ':sozialform'
+    replace: '<i class="fa-solid fa-user"></i> <i class="fa-solid fa-user"></i> Partnerarbeit'
+  - trigger: ':sozialform'
+    replace: '<i class="fa-solid fa-user"></i>|<i class="fa-solid fa-user"></i> Arbeitsteilige Partnerarbeit'
+  - trigger: ':sozialform'
+    replace: '<i class="fa-solid fa-user-plus"></i> EinzelarbeitPlus'
+  - trigger: ':sozialform'
+    replace: '<i class="fa-regular fa-group"></i> Gruppenarbeit'
+  - trigger: ':sozialform'
+    replace: '<i class="fa-solid fa-share"></i> Freie Wahl'

@@ -1,0 +1,121 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  # Fehlende Formeln
+
+  - trigger: ":xls"
+    label: Fehlende Formeln
+    replace: "Du hast keine Formeln in den {{cells.Zellen}} eingetragen."
+    vars:
+      - name: "cells"
+        type: form
+        params:
+          layout: "Zellen: [[Zellen]]"
+
+  - trigger: ":xls"
+    label: Fehlende Formel
+    replace: "Du hast keine Formel in {{cells.Zelle}} eingetragen."
+    vars:
+      - name: "cells"
+        type: form
+        params:
+          layout: "Zelle: [[Zelle]]"
+
+  # Tipp
+
+  - trigger: ":xls"
+    label: "Absolute Zellbezüge fixieren"
+    replace: "Fixiere absolute Zellbezüge, damit sie sich beim Kopieren oder Verschieben von Formeln nicht ändern. Verwende das Dollarzeichen ($), um die Bezüge anzupassen. Wenn ein absoluter Zellbezug nicht korrekt verwendet wird, können sich die Bezüge beim Kopieren oder Verschieben von Formeln unerwartet ändern."
+
+  - trigger: ":xls"
+    label: "ANZAHL-Funktion"
+    replace: "Verwende die ANZAHL-Funktion, um die Anzahl der Zahlen in einem Zellbereich zu zählen."
+
+  - trigger: ":xls"
+    label: "ABS-Funktion"
+    replace: "Verwende die ABS-Funktion, um den absoluten Wert einer Zahl zu berechnen."
+
+  - trigger: ':xls'
+    label: 'Falscher Datentyp (Euro)'
+    replace: 'Falscher Datentyp (Euro). Es ist wichtig, den richtigen Datentyp für die jeweiligen Daten zu verwenden, um korrekte Ergebnisse zu erzielen.'
+
+  - trigger: ':xls'
+    label: 'Falscher Datentyp (Dezimalzahl mit 2 Stellen)'
+    replace: 'Falscher Datentyp (Dezimalzahl mit 2 Stellen). Es ist wichtig, den richtigen Datentyp für die gewünschte Genauigkeit der Dezimalzahlen zu verwenden.'
+
+  - trigger: ":xls"
+    label: "Formeln kopieren"
+    replace: "Kopiere Formeln in benachbarte Zellen, um Berechnungen automatisch anzupassen. Achte dabei auf die korrekten relativen und absoluten Zellbezüge."
+
+  - trigger: ":xls"
+    label: "MAX-Funktion"
+    replace: "Verwende die MAX-Funktion, um den größten Wert in einer Gruppe von Zahlen zu finden."
+
+  - trigger: ":xls"
+    label: "MITTELWERT-Funktion"
+    replace: "Nutze die MITTELWERT-Funktion, um den Durchschnitt einer Gruppe von Zahlen zu berechnen."
+
+  - trigger: ":xls"
+    label: "MIN-Funktion"
+    replace: "Nutze die MIN-Funktion, um den kleinsten Wert in einer Gruppe von Zahlen zu finden."
+
+  - trigger: ':xls'
+    label: 'Rechenblatt nicht farbig gestaltet'
+    replace: 'Eine fehlende Farbgestaltung in einem Rechenblatt kann dazu führen, dass wichtige Informationen oder Zusammenhänge übersehen werden. Durch die Verwendung von Farben für verschiedene Elemente oder Kategorien können Daten visuell hervorgehoben und besser verstanden werden.'
+
+  - trigger: ':xls'
+    label: 'Rechenblatt nicht übersichtlich'
+    replace: 'Ein unübersichtliches Rechenblatt kann es schwierig machen, die enthaltenen Daten und Formeln zu verstehen und zu überprüfen. Es ist wichtig, das Rechenblatt so zu gestalten, dass es klar strukturiert ist, mit benutzerfreundlichen Bezeichnungen und einer logischen Anordnung der Inhalte.'
+
+  - trigger: ":xls"
+    label: "Rechenzeichen"
+    replace: "Verwende die Grundrechenarten (+, -, *, /) in deinen Formeln, um mathematische Berechnungen durchzuführen."
+
+  - trigger: ":xls"
+    label: "RUNDEN-Funktion"
+    replace: "Nutze die RUNDEN-Funktion, um eine Zahl auf eine bestimmte Anzahl von Dezimalstellen zu runden. Gib die Zahl und die Anzahl der Dezimalstellen als Argumente innerhalb der Funktion an."
+
+  - trigger: ":xls"
+    label: "SUMME-Funktion"
+    replace: "Verwende die SUMME-Funktion, um die Summe zu berechnen."
+
+  - trigger: ':xls'
+    label: 'Spalte nicht breit genug'
+    replace: 'Wenn eine Spalte in der Tabellenkalkulation nicht breit genug ist, können die Inhalte der Zellen abgeschnitten oder unleserlich dargestellt werden. Es ist wichtig, die Spaltenbreite entsprechend anzupassen, um sicherzustellen, dass alle Daten vollständig sichtbar sind.'
+
+  - trigger: ":xls"
+    label: "Tabellenblätter verwenden"
+    replace: "Organisiere deine Daten in verschiedenen Tabellenblättern, um komplexe Tabellenkalkulationen zu erstellen. Verwende Verknüpfungen zwischen den Blättern, um Daten auszutauschen."
+
+  - trigger: ":xls"
+    label: "VERKETTEN-Funktion"
+    replace: "Nutze die VERKETTEN-Funktion, um Texte oder Zellen miteinander zu verbinden. Gib die zu verbindenden Elemente als Argumente innerhalb der Funktion an."
+
+  - trigger: ":xls"
+    label: "WENN-Funktion"
+    replace: "Verwende die WENN-Funktion, um eine logische Bedingung in deinen Formeln zu überprüfen. Gib die Bedingung, den Wert bei Erfüllung und den Wert bei Nichterfüllung an."
+
+  - trigger: ":xls"
+    label: "ZÄHLENWENN-Funktion"
+    replace: "Verwende die ZÄHLENWENN-Funktion, um die Anzahl der Zellen zu zählen, die eine bestimmte Bedingung erfüllen. Gib die Bedingung als erstes Argument und den Zellbereich als zweites Argument an."
+
+  - trigger: ":xls"
+    label: "Zellbezug"
+    replace: "Verwende den Zellbezug in deinen Formeln, um auf andere Zellen zu verweisen. Der Zellbezug ermöglicht den Zugriff auf den Inhalt einer bestimmten Zelle in einer Tabelle und erleichtert die Erstellung von flexiblen und aktualisierbaren Formeln."
+
+  - trigger: ":xls"
+    label: "Zellformatierung"
+    replace: "Verwende die Zellformatierung, um deine Daten übersichtlicher darzustellen. Passe Schriftart, -größe und -farbe an, formatiere Zahlen oder füge Hintergrundfarben hinzu."
+
+  - trigger: ":xls"
+    label: "Zellen verbinden"
+    replace: "Nutze die Methode Zellen verbinden, damit kannst du aus mehreren Zellen eine machen und deine Tabelle besser strukturieren."
+    

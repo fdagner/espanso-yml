@@ -1,0 +1,84 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  # Schema Einkauf
+  
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation"
+    replace: |
+        Listeneinkaufspreis (LEP)
+        - Liefererrabatt (LR)
+        = Zieleinkaufspreis (ZEP)
+        - Liefererskonto (LR)
+        = Bareinkaufspreis (BEP)
+        + Bezugskosten (BZK)
+        = Einstandspreis (EP)
+  
+  # Einkaufskalkulation
+
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 1. LEP"
+    replace: Listeneinkaufspreis (LEP)
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 2. LR"
+    replace: "'- Liefererrabatt (LR)"
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 3. ZEP"
+    replace: "'= Zieleinkaufspreis (ZEP)"
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 4. LR"
+    replace: "'-Liefererskonto (LR)"
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 5. BEP"    
+    replace: "'= Bareinkaufspreis (BEP)"
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 6. BZK"    
+    replace: "'+Bezugskosten (BZK)"
+  - trigger: ":bwr"
+    label: "Einkaufskalkulation: 7. EP"    
+    replace: "'= Einstandspreis (EP)"
+
+  # Schemas
+
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation"
+    replace: |
+      Selbstkosten (SK)
+      + Gewinn
+      = Barverkaufspreis (BVP)
+      + Kundenskonto (KS)
+      = Zielverkaufspreis
+      + Kundenrabatt (KR)
+      = Listenverkaufspreis (LVP)
+  
+  # Verkaufskalkulation in einzelnen Zellen
+
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 1. SK"
+    replace: Selbstkosten (SK)
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 2. Gewinn"
+    replace: "+ Gewinn"
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 3. BVP"
+    replace: "= Barverkaufspreis (BVP)"
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 4. KS"
+    replace: "+ Kundenskonto (KS)"
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 5. Zielverkaufspreis"    
+    replace: "= Zielverkaufspreis"
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 6. KR"    
+    replace: "+ Kundenrabatt (KR)"
+  - trigger: ":bwr"
+    label: "Verkaufskalkulation: 7. LVP"    
+    replace: "= Listenverkaufspreis (LVP)"
