@@ -82,3 +82,88 @@ matches:
   - trigger: ":bwr"
     label: "Verkaufskalkulation: 7. LVP"    
     replace: "= Listenverkaufspreis (LVP)"
+
+  # Kontenplan
+  - triggers: [":bwr","kk"]
+    label: "Kontenplan"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+          - 0500 GR
+          - 0530 BVG
+          - 0700 MA
+          - 0840 FP
+          - 0860 BM
+          - 0870 BGA
+          - 0890 GWG
+          - 1500 WP
+          - 2000 R
+          - 2010 F
+          - 2020 H
+          - 2030 B
+          - 2400 FO
+          - 2470 ZWFO
+          - 2600 VORST
+          - 2800 BK
+          - 2880 KA
+          - 2900 ARA
+          - 3000 EK
+          - 3001 P
+          - 3670 EWB
+          - 3680 PWB
+          - 3900 RST
+          - 4200 KBKV
+          - 4250 LBKV
+          - 4400 VE
+          - 4800 UST
+          - 4830 VFA
+          - 4840 VSV
+          - 4900 PRA
+          - 5000 UEFE
+          - 5001 EBFE
+          - 5400 EMP
+          - 5430 ASBE
+          - 5490 PFE
+          - 5495 EFO
+          - 5650 EAWP
+          - 5710 ZE
+          - 5780 DDE
+          - 6000 AWR
+          - 6001 BZKR
+          - 6002 NR
+          - 6010 AWF
+          - 6011 BZKF
+          - 6012 NF
+          - 6020 AWH
+          - 6021 BZKH
+          - 6022 NH
+          - 6030 AWB
+          - 6031 BZKB
+          - 6032 NB
+          - 6040 AWVM
+          - 6140 AFR
+          - 6160 FRI
+          - 6200 LG
+          - 6400 AGASV
+          - 6520 ABSA
+          - 6540 ABGWG
+          - 6700 AWMP
+          - 6730 GEB
+          - 6750 KGV
+          - 6760 PROV
+          - 6770 RBK
+          - 6800 BMK
+          - 6820 KOM
+          - 6850 REK
+          - 6870 WER
+          - 6900 VBEI
+          - 6950 ABFO
+          - 6990 PFAW
+          - 7000 GWST
+          - 7020 GRST
+          - 7030 KFZST
+          - 7460 VAWP
+          - 7510 ZAW
