@@ -1,59 +1,59 @@
-# espanso match file
+## espanso match file
 
-# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+## For a complete introduction, visit the official docs at: https://espanso.org/docs/
 
-# You can use this file to define the base matches (aka snippets)
-# that will be available in every application when using espanso.
+## You can use this file to define the base matches (aka snippets)
+## that will be available in every application when using espanso.
 
-# Matches are substitution rules: when you type the "trigger" string
-# it gets replaced by the "replace" string.
+## Matches are substitution rules: when you type the "trigger" string
+## it gets replaced by the "replace" string.
 matches:
 
-  # Hashtags
+  ## Hashtags
 
-- trigger: "#"
+- trigger: "##"
   replace: "#ALP"
-- trigger: "#"
+- trigger: "##"
   replace: "#Bayern"
-- trigger: "#"
+- trigger: "##"
   replace: "#Bildung"
-- trigger: "#"
+- trigger: "##"
   replace: "#ByCS"
-- trigger: "#"
+- trigger: "##"
   replace: "#CSS"
-- trigger: "#"
+- trigger: "##"
   replace: "#Coding"
-- trigger: "#"
+- trigger: "##"
   replace: "#Dasgehtauchmitmebis"
-- trigger: "#"
-  replace: "#DigitalLearning"
-- trigger: "#"
+- trigger: "##"
+  replace: "#DigitalLearning"##
+- trigger: "##"
   replace: "#Dillingen"
-- trigger: "#"
+- trigger: "##"
   replace: "#Digitales"
-- trigger: "#"
+- trigger: "##"
   replace: "#eLearning"
-- trigger: "#"
+- trigger: "##"
   replace: "#FediLZ"
-- trigger: "#"
+- trigger: "##"
   replace: "#HTML"
-- trigger: "#"
+- trigger: "##"
   replace: "#Lehrer"
-- trigger: "#"
+- trigger: "##"
   replace: "#MdRzA"
-- trigger: "#"
+- trigger: "##"
   replace: "#mebis"
-- trigger: "#"
+- trigger: "##"
   replace: "#mebis_bayern"
-- trigger: "#"
+- trigger: "##"
   replace: "#MoodleBande"
-- trigger: "#"
+- trigger: "##"
   replace: "#moodle"
-- trigger: "#"
+- trigger: "##"
   replace: "#Realschule"
-- trigger: "#"
+- trigger: "##"
   replace: "#Schule"
-- trigger: "#"
+- trigger: "##"
   replace: "#wowdw"
 
 

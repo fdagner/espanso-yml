@@ -29,6 +29,11 @@ matches:
         params:
           layout: "Zelle: [[Zelle]]"
 
+  - trigger: ":xls"
+    label: Fehlende Formeln (alle)
+    replace: "Es fehlen sämtliche Formeln!"
+
+
   # Tipp
 
   - trigger: ":xls"
@@ -118,4 +123,26 @@ matches:
   - trigger: ":xls"
     label: "Zellen verbinden"
     replace: "Nutze die Methode Zellen verbinden, damit kannst du aus mehreren Zellen eine machen und deine Tabelle besser strukturieren."
-    
+
+
+  # Feedback
+
+  - trigger: ":xls"
+    label: "Feedback Rechenblatt (schlecht) - 8 (prima)"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Dein Rechenblatt hat einige ernsthafte Mängel. Das Layout ist unübersichtlich und es gibt viele Fehler in den Berechnungen. Bitte nimm dir mehr Zeit, um die Grundlagen der Tabellenkalkulation zu erlernen.
+        - Das Layout deines Tabellenkalkulationsblattes ist unzureichend, und es gibt einige fachliche Fehler. Du solltest die Formeln und Berechnungen überprüfen, um sicherzustellen, dass sie korrekt sind.
+        - Dein Rechenblatt zeigt einige Ansätze zur Verbesserung, aber es gibt immer noch einige Probleme mit Übersichtlichkeit und fachlicher Richtigkeit. Überarbeite es bitte sorgfältig!
+        - Das Layout deines Rechenblattes ist akzeptabel, aber es gibt einige kleinere fachliche Fehler in den Berechnungen. Achte darauf, diese zu korrigieren, um die Qualität zu verbessern.
+        - Dein Rechenblatt ist in Ordnung, aber es gibt Raum für Verbesserungen. Das Layout könnte übersichtlicher sein, und einige Berechnungen müssen überarbeitet werden.
+        - Dein Rechenblatt zeigt Fortschritte. Das Layout ist besser geworden, und die meisten Berechnungen sind korrekt. Arbeite weiter daran, um es zu optimieren.
+        - Gute Arbeit! Dein Tabellenkalkulationsblatt ist gut strukturiert, und die meisten Berechnungen sind korrekt. Einige kleine Verbesserungen könnten es noch besser machen.
+        - Dein Recheblatt ist sehr ordentlich und gut strukturiert. Die Berechnungen sind korrekt, und du zeigst ein solides Verständnis für das Thema. Gut gemacht!
+        - Hervorragende Arbeit! Dein Rechenblatt ist äußerst übersichtlich und professionell gestaltet. Die fachliche Richtigkeit der Berechnungen ist fehlerfrei.
+        - Herzlichen Glückwunsch! Dein Tabellenkalkulationsblatt ist hervorragend in jeder Hinsicht. Das Layout ist professionell, die fachliche Richtigkeit ist perfekt, und die Berechnungen sind präzise. Du hast großartige Arbeit geleistet.
+

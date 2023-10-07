@@ -12,27 +12,22 @@ matches:
   # Feedback
 
   - trigger: ":feedback"
-    label: "Anfeuern"
+    label: "Allgemeines Anfeuern"
     form: |
       [[choices]]
     form_fields:
       choices:
         type: list
         values:
-        - Du hast bereits großartige Fortschritte gemacht, und ich bin sicher, dass du noch weiter wachsen wirst.
+        - Du hast bereits großartige Fortschritte gemacht, und ich bin sicher, dass du dich noch weiter verbessern wirst.
         - Ich bewundere deine Ausdauer und deinen Ehrgeiz, immer dein Bestes zu geben.
         - Du hast ein beeindruckendes Potenzial, und ich bin gespannt, wie du es weiterentwickeln wirst.
         - Deine Leidenschaft für das Lernen ist inspirierend, und ich ermutige dich, diesen Weg weiterzugehen.
         - Du hast eine positive Einstellung und gibst nie auf, auch wenn es schwierig wird.
         - Ich sehe, wie du dich immer wieder herausforderst und neue Ziele setzt. Das ist großartig!
         - Du bist ein echter Teamplayer und motivierst auch deine Mitschüler.
-        - Du zeigst viel Initiative und ergreifst eigenständig die Gelegenheit, dich weiterzuentwickeln.
-        - Deine Neugier und dein Wissensdurst sind bewundernswert. Bleib immer hungrig nach Wissen!
         - Du hast bereits bewiesen, dass du Herausforderungen meistern kannst. Lass dich davon nicht aufhalten.
         - Ich sehe, wie du dich in deinem Selbstvertrauen stärkst und immer mehr an dich glaubst. Das ist großartig zu sehen!
-        - Du hast eine einzigartige Perspektive und bringst frische Ideen in den Unterricht ein. Lass deine Kreativität weiterhin fließen!
-        - Du bist ein echter Durchhaltevermögenskünstler. Gib nicht auf und bleib fokussiert auf deine Ziele.
-        - Du hast eine starke Arbeitsethik und setzt dich immer voll und ganz für deine Aufgaben ein.
         - Ich bin beeindruckt von deinem Engagement und deinem Einsatz, um kontinuierlich besser zu werden.
         - Du hast das Zeug dazu, Großes zu erreichen. Glaube an dich selbst und verfolge deine Träume.
         - Du hast eine natürliche Begabung in bestimmten Bereichen. Nutze sie und entwickle dein Talent weiter.
@@ -40,36 +35,9 @@ matches:
         - Du hast eine positive Energie, die andere um dich herum motiviert. Bleib immer so ermutigend!
         - Ich sehe, wie du aus Fehlern lernst und dich kontinuierlich verbesserst. Das ist ein Zeichen von echtem Wachstum.
 
-  - trigger: ":feedback"
-    label: "Loben"
-    form: |
-      [[choices]]
-    form_fields:
-      choices:
-        type: list
-        values:
-        - Du hast alle deine Aufgaben immer pünktlich abgegeben.
-        - Deine abgegebenen Arbeiten sind gut strukturiert und übersichtlich.
-        - Du hast alle gestellten Aufgaben vollständig erledigt.
-        - Deine Aufgaben zeigen eine gute Qualität und sind sorgfältig bearbeitet.
-        - Du hast alle Anweisungen und Vorgaben bei der Aufgabenstellung genau befolgt.
-        - Du hast deine Aufgaben immer gründlich überprüft, bevor du sie abgegeben hast.
-        - Du hast immer zusätzliche Informationen oder Quellen in deine Aufgaben eingebunden.
-        - Deine Aufgaben zeigen eine hohe Kreativität und originelle Lösungsansätze.
-        - Du hast bei der Abgabe von Aufgaben immer eine klare und verständliche Sprache verwendet.
-        - Du hast deine Aufgaben mit eigenen Ideen erweitert und zusätzliche Aspekte eingebracht.
-        - Du hast bei der Abgabe von Aufgaben immer eine strukturierte Herangehensweise gezeigt.
-        - Du hast dich intensiv mit den gestellten Aufgaben auseinandergesetzt und tiefergehende Analysen durchgeführt.
-        - Du hast bei der Abgabe von Aufgaben immer eine gute Balance zwischen Inhalt und Umfang gefunden.
-        - Du hast deine Aufgaben mit relevanten Beispielen oder Fallstudien untermauert.
-        - Du hast bei der Abgabe von Aufgaben immer eine klare Argumentation und logische Schlussfolgerungen präsentiert.
-        - Du hast bei der Abgabe von Aufgaben immer eine gute Recherche und Informationsbeschaffung durchgeführt.
-        - Du hast deine Aufgaben mit eigenen Meinungen oder Standpunkten bereichert und gut begründet.
-        - Du hast bei der Abgabe von Aufgaben immer eine gute Strukturierung und Gliederung verwendet.
-        - Du hast bei der Abgabe von Aufgaben immer auf eine ansprechende Präsentation und Formatierung geachtet.
 
   - trigger: ":feedback"
-    label: "Aufmuntern"
+    label: "Allgemeines Aufmuntern"
     form: |
       [[choices]]
     form_fields:
@@ -80,24 +48,42 @@ matches:
         - Lass dich nicht entmutigen. Du hast bereits viele Fortschritte gemacht und wirst auch diese Herausforderung meistern.
         - Es ist okay, frustriert zu sein. Gib dir Zeit, um dich zu sammeln, und dann versuche es erneut.
         - Jeder macht mal Fehler. Wichtig ist, daraus zu lernen und es beim nächsten Mal besser zu machen.
-        - Du bist nicht allein. Ich stehe hinter dir und unterstütze dich bei jedem Schritt.
         - Es ist okay, um Hilfe zu bitten. Manchmal braucht man einfach Unterstützung, um wieder aufzustehen.
-        - Denk daran, dass du mehr bist als nur deine Fehler. Du hast viele Stärken und Talente.
-        - Es ist wichtig, geduldig mit dir selbst zu sein. Gib dir Zeit, um zu wachsen und dich zu verbessern.
-        - Selbst die besten Sportler haben mal einen schlechten Tag. Kopf hoch und weitermachen!
         - Vergleiche dich nicht zu sehr mit anderen. Jeder hat seinen eigenen Weg und sein eigenes Tempo.
-        - Denk daran, dass du nicht alles alleine tragen musst. Sprich mit jemandem, dem du vertraust, über deine Sorgen.
         - Es ist völlig normal, sich manchmal überfordert zu fühlen. Pausen sind wichtig, um neue Energie zu tanken.
         - Du hast bereits viele Hürden gemeistert. Vertraue darauf, dass du auch diese überwinden kannst.
         - Du bist stärker, als du denkst. Glaube an dich selbst und vertraue auf deine Fähigkeiten.
-        - Es ist okay, mal eine Pause einzulegen und dich selbst zu pflegen. Du verdienst es, gut für dich zu sorgen.
-        - Denk daran, dass du nicht für immer in dieser schwierigen Situation stecken wirst. Es wird besser werden.
-        - Du bist nicht allein mit deinen Gefühlen. Andere haben ähnliche Erfahrungen gemacht und können dich verstehen.
         - Es ist normal, sich manchmal unsicher zu fühlen. Vertraue darauf, dass du die Lösung finden wirst.
         - Du bist einzigartig und wertvoll. Lass dich nicht von Rückschlägen entmutigen.
 
+
   - trigger: ":feedback"
-    label: "Kritisieren"
+    label: "Allgemeines Loben"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Deine abgegebenen Arbeiten sind gut strukturiert und übersichtlich.
+        - Du hast alle gestellten Aufgaben vollständig erledigt.
+        - Deine Aufgaben zeigen eine gute Qualität und sind sorgfältig bearbeitet.
+        - Du hast alle Anweisungen und Vorgaben bei der Aufgabenstellung genau befolgt.
+        - Du hast deine Aufgaben immer gründlich überprüft, bevor du sie abgegeben hast.
+        - Du hast in diesem Schuljahr große Fortschritte gemacht. Deine Leistungen sind beeindruckend!
+        - Deine Aufgaben zeigen eine hohe Kreativität und originelle Lösungsansätze.
+        - Du hast bei der Abgabe von Aufgaben immer eine klare und verständliche Sprache verwendet.
+        - Du hast deine Aufgaben mit eigenen Ideen erweitert und zusätzliche Aspekte eingebracht.
+        - Du hast bei der Abgabe von Aufgaben immer eine strukturierte Herangehensweise gezeigt.
+        - Du hast bei der Abgabe von Aufgaben immer eine gute Balance zwischen Inhalt und Umfang gefunden.
+        - Du hast deine Aufgaben mit relevanten Beispielen oder Fallstudien untermauert.
+        - Du hast bei der Abgabe von Aufgaben immer eine gute Recherche und Informationsbeschaffung durchgeführt.
+        - Du hast deine Aufgaben mit eigenen Meinungen oder Standpunkten bereichert und gut begründet.
+        - Du hast bei der Abgabe von Aufgaben immer eine gute Strukturierung und Gliederung verwendet.
+        - Du hast bei der Abgabe von Aufgaben immer auf eine ansprechende Präsentation und Formatierung geachtet.
+
+  - trigger: ":feedback"
+    label: "Allgemeines Kritisieren"
     form: |
       [[choices]]
     form_fields:
@@ -114,19 +100,16 @@ matches:
         - Es ist enttäuschend, dass du dich nicht an die Klassenregeln gehalten hast.
         - Ich bin enttäuscht, dass du deine mündliche Beteiligung im Unterricht vernachlässigt hast.
         - Es ist schade, dass du dein Potenzial nicht voll ausgeschöpft hast.
-        - Ich hatte gehofft, dass du deine Note in diesem Fach verbessern würdest, aber das ist nicht passiert.
-        - Es ist enttäuschend, dass du deine Verantwortung als Klassensprecher nicht ernst genommen hast.
         - Ich bin enttäuscht, dass du nicht aktiv an Gruppenprojekten teilgenommen hast.
-        - Es ist bedauerlich, dass du nicht die erforderliche Sorgfalt in deine schriftlichen Arbeiten gesteckt hast.
+        - Es ist bedauerlich, dass du nicht die erforderliche Sorgfalt in deine Arbeiten gesteckt hast.
         - Ich hatte erwartet, dass du deine Konzentration im Unterricht verbessern würdest, aber das ist nicht geschehen.
         - Es ist enttäuschend, dass du dich nicht an die Abgabefristen gehalten hast.
         - Ich bin frustriert, dass du wiederholt deine Hausaufgaben vergessen hast.
         - Es ist schade, dass du deine Lernzeit nicht effektiv genutzt hast.
         - Ich hatte gehofft, dass du deine mündliche Präsentation besser vorbereiten würdest.
-        - Es ist enttäuschend, dass du keine Anstrengungen unternommen hast, um deine Schwächen in diesem Fach zu überwinden.
 
   - trigger: ":feedback"
-    label: "Bejubeln"
+    label: "Allgemeines Bejubeln"
     form: |
       [[choices]]
     form_fields:
@@ -139,20 +122,39 @@ matches:
         - Großartige Leistung! Du hast bewiesen, dass du über dich selbst hinauswachsen kannst.
         - Wow, das ist wirklich beeindruckend! Du hast die Erwartungen übertroffen.
         - Ich bin begeistert von deinem Fortschritt. Du hast dich wirklich weiterentwickelt.
-        - Tolle Arbeit! Du hast gezeigt, dass du die Konzepte wirklich verstanden hast.
+        - Tolle Arbeit! Du hast gezeigt, dass du die Lerninhalte wirklich verstanden hast.
         - Das ist wirklich bemerkenswert! Du hast deine Fähigkeiten auf ein neues Level gebracht.
         - Ich bin begeistert von deiner Kreativität und deinem Engagement. Mach weiter so!
-        - Du hast wirklich gute strategische Entscheidungen getroffen. Das hat sich ausgezahlt.
         - Ich freue mich, dass du so motiviert und engagiert bist. Das zahlt sich definitiv aus.
         - Super gemacht! Du hast gezeigt, dass du in der Lage bist, komplexe Aufgaben zu bewältigen.
-        - Ich bin beeindruckt von deiner Ausdauer und deinem Durchhaltevermögen. Das ist bewundernswert.
-        - Fantastisch! Du hast bewiesen, dass du die Fähigkeiten hast, um erfolgreich zu sein.
+        - Ich sehe, wie hart du arbeitest, um deine Aufgaben zu lösen. Das ist wirklich beeindruckend! Bleib fokussiert und vertrau auf deine Fähigkeiten. Du bist auf dem besten Weg zum Erfolg.
+        - Ich möchte dir ein großes Lob aussprechen. Deine Aufgabenlösungen sind herausragend! Deine Entschlossenheit und dein Ehrgeiz sind bewundernswert. Mach weiter so und bleib motiviert!
         - Ich freue mich, dass du dein volles Potenzial ausschöpfst. Du bist auf dem richtigen Weg.
         - Herzlichen Glückwunsch zu deinem Erfolg! Du hast bewiesen, dass du es schaffen kannst.
         - Ich bin wirklich stolz auf deine Leistung. Du hast hart gearbeitet und es hat sich gelohnt.
         - Großartige Arbeit! Du hast gezeigt, dass du in der Lage bist, komplexe Probleme zu lösen.
-        - Ich bin begeistert von deinem Wissen und deinem Verständnis in diesem Fach. Weiter so!
+        - Ich möchte dir für deine hervorragende Arbeit bei der Lösung der Aufgaben gratulieren! Du zeigst wirklich Engagement und Einsatz. Mach weiter so, du bist auf dem richtigen Weg!
         - Herzlichen Glückwunsch zu deinem Durchbruch! Du hast bewiesen, dass du es schaffen kannst.
         - Ich bin so froh, dass du deine Ziele erreicht hast. Du hast es dir wirklich verdient.
+
+
+  - trigger: ":feedback"
+    label: "Mitarbeit 1 (schlecht) - 8 (prima)"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Ich habe bemerkt, dass du im Unterricht in letzter Zeit nicht aktiv warst. Es ist wichtig, sich zu beteiligen und von den Unterrichtsinhalten zu profitieren. Ich ermutige dich, Fragen zu stellen und dich stärker einzubringen. Du kannst das schaffen, und ich bin hier, um dir zu helfen und dich zu unterstützen. 
+        - Ich sehe, dass du dir in letzter Zeit etwas Mühe gibst, dich am Unterricht zu beteiligen. Das ist ein guter erster Schritt, und ich möchte dich ermutigen, weiter daran zu arbeiten. Lass uns gemeinsam an deiner Mitarbeit arbeiten, um sie zu verbessern.
+        - Es ist großartig zu sehen, dass du deine Mitarbeit im Unterricht steigerst. Du zeigst Fortschritte, und ich bin sicher, dass du noch besser werden kannst. Bleib dran!
+        - Ich möchte dir für dein verstärktes Engagement im Unterricht danken. Es ist offensichtlich, dass du daran arbeitest, deine Mitarbeit zu verbessern, und das ist großartig. Wir werden zusammenarbeiten, um deine Fähigkeiten weiter zu entwickeln.
+        - Deine gesteigerte Mitarbeit im Unterricht fällt positiv auf. Du machst bereits gute Fortschritte, und ich bin zuversichtlich, dass du in Zukunft noch besser sein wirst. Bleib motiviert und engagiert!
+        - Deine Mitarbeit im Unterricht ist schon ziemlich gut! Du bist aktiv und beteiligst dich regelmäßig am Geschehen. Mach so weiter, und du wirst großartige Ergebnisse erzielen!
+        - Du machst eine hervorragende Arbeit im Unterricht! Deine Mitarbeit ist fast perfekt, und du trägst erheblich zur Qualität unserer Diskussionen bei. Weiter so, du bist auf dem richtigen Weg.
+        - Deine Mitarbeit im Unterricht verdient die Höchstnote! Du bist äußerst engagiert, zeigst tiefe Einsichten und inspirierst andere. Du bist ein Vorbild für deine Mitschüler. Herzlichen Glückwunsch zu deiner herausragenden Leistung!
+
+
 
 # And much more! For more information, visit the docs: https://espanso.org/docs/

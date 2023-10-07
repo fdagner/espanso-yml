@@ -9,7 +9,43 @@
 # it gets replaced by the "replace" string.
 matches:
 
-  # Schema Einkauf
+
+  # Aktienkauf
+  - trigger: ":bwr"
+    label: "Aktienkauf"
+    replace: | 
+      Kurswert (Stückkurs · Stückzahl)
+      + Spesen (1 % vom Kurswert)
+      = Banklastschrift
+
+  # Aktienverkauf
+  - trigger: ":bwr"
+    label: "Aktienverkauf"
+    replace: | 
+      Kurswert (Stückkurs · Stückzahl)
+      + Spesen (1 % vom Kurswert)
+      = Banklastschrift
+
+      Bankgutschrift beim Verkauf 	
+      - Banklastschrift beim Kauf
+      = Kursgewinn 
+      + Dividendenerträge
+      - Depotgebühren 
+      = Gesamtertrag
+
+  # Effektive Verzinsung
+
+  - trigger: ":bwr"
+    label: "Effektive Verzinsung"
+    replace: |
+      Zinsen
+      + Disagio
+      = Kreditkosten
+
+      peff = 
+
+
+  # Einkaufskalkulation
   
   - trigger: ":bwr"
     label: "Einkaufskalkulation"
@@ -22,31 +58,7 @@ matches:
         + Bezugskosten (BZK)
         = Einstandspreis (EP)
   
-  # Einkaufskalkulation
-
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 1. LEP"
-    replace: Listeneinkaufspreis (LEP)
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 2. LR"
-    replace: "'- Liefererrabatt (LR)"
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 3. ZEP"
-    replace: "'= Zieleinkaufspreis (ZEP)"
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 4. LR"
-    replace: "'-Liefererskonto (LR)"
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 5. BEP"    
-    replace: "'= Bareinkaufspreis (BEP)"
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 6. BZK"    
-    replace: "'+Bezugskosten (BZK)"
-  - trigger: ":bwr"
-    label: "Einkaufskalkulation: 7. EP"    
-    replace: "'= Einstandspreis (EP)"
-
-  # Schemas
+  # Verkaufskalkulation
 
   - trigger: ":bwr"
     label: "Verkaufskalkulation"
@@ -58,30 +70,21 @@ matches:
       = Zielverkaufspreis
       + Kundenrabatt (KR)
       = Listenverkaufspreis (LVP)
-  
-  # Verkaufskalkulation in einzelnen Zellen
+
+  # Skonto
 
   - trigger: ":bwr"
-    label: "Verkaufskalkulation: 1. SK"
-    replace: Selbstkosten (SK)
-  - trigger: ":bwr"
-    label: "Verkaufskalkulation: 2. Gewinn"
-    replace: "+ Gewinn"
-  - trigger: ":bwr"
-    label: "Verkaufskalkulation: 3. BVP"
-    replace: "= Barverkaufspreis (BVP)"
-  - trigger: ":bwr"
-    label: "Verkaufskalkulation: 4. KS"
-    replace: "+ Kundenskonto (KS)"
-  - trigger: ":bwr"
-    label: "Verkaufskalkulation: 5. Zielverkaufspreis"    
-    replace: "= Zielverkaufspreis"
-  - trigger: ":bwr"
-    label: "Verkaufskalkulation: 6. KR"    
-    replace: "+ Kundenrabatt (KR)"
-  - trigger: ":bwr"
-    label: "Verkaufskalkulation: 7. LVP"    
-    replace: "= Listenverkaufspreis (LVP)"
+    label: "Skonto"
+    replace: |  
+      Rechnungsbetrag
+      - Skonto brutto
+      = Überweisungsbetrag
+
+      Skonto brutto
+      - Umsatzsteuer
+      = Skonto netto
+
+
 
   # Kontenplan
   - triggers: [":bwr","kk"]
