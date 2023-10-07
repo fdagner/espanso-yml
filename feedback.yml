@@ -139,7 +139,7 @@ matches:
 
 
   - trigger: ":feedback"
-    label: "Mitarbeit 1 (schlecht) - 8 (prima)"
+    label: "Mitarbeit abgestuft"
     form: |
       [[choices]]
     form_fields:
@@ -155,6 +155,22 @@ matches:
         - Du machst eine hervorragende Arbeit im Unterricht! Deine Mitarbeit ist fast perfekt, und du trägst erheblich zur Qualität unserer Diskussionen bei. Weiter so, du bist auf dem richtigen Weg.
         - Deine Mitarbeit im Unterricht verdient die Höchstnote! Du bist äußerst engagiert, zeigst tiefe Einsichten und inspirierst andere. Du bist ein Vorbild für deine Mitschüler. Herzlichen Glückwunsch zu deiner herausragenden Leistung!
 
+
+  - trigger: ":feedback"
+    label: "Zeitmanagement abgestuft"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Manchmal bemerke ich, dass du wirklich schnell arbeitest. Das ist gut, weil du viel schaffen kannst. Aber manchmal ist es auch wichtig, sich Zeit zu nehmen, um sicherzustellen, dass du keine Fehler machst.
+        - Dein Zeitmanagement war in letzter Zeit nicht effektiv. Du scheinst Schwierigkeiten zu haben, deine Aufgaben zu erledigen. Es ist wichtig, deine Zeit besser zu planen, um produktiver zu sein.
+        - Dein Zeitmanagement zeigt einige Fortschritte, aber es gibt immer noch Raum für Verbesserungen. Du solltest konsequenter daran arbeiten, deine Aufgaben zu erledigen.
+        - Du zeigst ein solides Zeitmanagement. Die meisten Aufgaben werden zügig erledigt, aber es gibt noch Raum für Effizienzsteigerungen.
+        - Dein Zeitmanagement ist gut. Du erledigst deine Aufgaben in der Regel zügig und bleibst organisiert. Du könntest jedoch noch mehr Hilfe in Anspruch nehmen, um produktiver zu sein.
+        - Du verfügst über ein effektives Zeitmanagement. Die meisten Aufgaben werden zügig erledigt, und du bleibst gut organisiert. Mach so weiter!
+        - Dein Zeitmanagement ist sehr effektiv. Du erledigst Aufgaben zügig und nutzt deine Zeit optimal. Du zeigst ein starkes Engagement für deine Arbeit.
 
 
 # And much more! For more information, visit the docs: https://espanso.org/docs/
