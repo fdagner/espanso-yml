@@ -26,7 +26,7 @@ matches:
 - trigger: "##"
   replace: "#Dasgehtauchmitmebis"
 - trigger: "##"
-  replace: "#DigitalLearning"##
+  replace: "#DigitalLearning"
 - trigger: "##"
   replace: "#Dillingen"
 - trigger: "##"
