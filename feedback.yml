@@ -139,7 +139,7 @@ matches:
 
 
   - trigger: ":feedback"
-    label: "Mitarbeit abgestuft"
+    label: "Abgestuft Mitarbeit"
     form: |
       [[choices]]
     form_fields:
@@ -157,7 +157,7 @@ matches:
 
 
   - trigger: ":feedback"
-    label: "Zeitmanagement abgestuft"
+    label: "Abgestuft Zeitmanagement"
     form: |
       [[choices]]
     form_fields:
@@ -171,6 +171,37 @@ matches:
         - Dein Zeitmanagement ist gut. Du erledigst deine Aufgaben in der Regel zügig und bleibst organisiert. Du könntest jedoch noch mehr Hilfe in Anspruch nehmen, um produktiver zu sein.
         - Du verfügst über ein effektives Zeitmanagement. Die meisten Aufgaben werden zügig erledigt, und du bleibst gut organisiert. Mach so weiter!
         - Dein Zeitmanagement ist sehr effektiv. Du erledigst Aufgaben zügig und nutzt deine Zeit optimal. Du zeigst ein starkes Engagement für deine Arbeit.
+
+
+  - trigger: ":feedback"
+    label: "Abgestuft Einsatzbereitschaft"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Deine Einsatzbereitschaft war in letzter Zeit nicht effektiv. Du könntest mehr Energie und Engagement in deine Aufgaben investieren, um bessere Ergebnisse zu erzielen.
+        - Dein Einsatz könnte besser sein. Es gibt Momente, in denen du vielleicht nicht so motiviert wirkst. Versuche, dich mehr für die Aufgaben zu begeistern und dich stärker zu engagieren.
+        - Deine Einsatzbereitschaft zeigt einige Fortschritte, aber es gibt noch Raum für Verbesserungen. Du solltest konsequenter daran arbeiten, deine Aufgaben mit mehr Energie anzugehen.
+        - Du zeigst eine solide Einsatzbereitschaft. Du engagierst dich für deine Aufgaben, aber es gibt noch Raum für Steigerungen.
+        - Deine Einsatzbereitschaft ist gut. Du gehst deine Aufgaben mit Engagement an und bleibst motiviert. 
+        - Du verfügst über eine effektive Einsatzbereitschaft. Du zeigst Motivation und Energie bei der Bewältigung deiner Aufgaben. Mach so weiter!
+        - Deine Einsatzbereitschaft ist sehr effektiv. Du gehst Aufgaben mit viel Energie und Enthusiasmus an und erzielst gute Ergebnisse. Du zeigst ein starkes Engagement für deine Arbeit.
+
+
+  - trigger: ":feedback"
+    label: "Abgestuft Verhalten"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Dein Verhalten im Unterricht war in letzter Zeit nicht effektiv. Du hast Schwierigkeiten, dich zu konzentrieren und störst manchmal den Unterricht. Versuche, dich besser zu konzentrieren.
+        - Dein Verhalten könnte besser sein. Es gab Momente, in denen du unaufmerksam warst oder abgelenkt schienst. Versuche, deine Aufmerksamkeit auf den Unterricht zu richten.
+        - Dein Verhalten im Unterricht ist gut. Du beteiligst dich aktiv am Unterrichtsgeschehen und zeigst Respekt für den Unterrichtsprozess. Mach so weiter!
+        - Du bist äußerst diszipliniert und zeigst ein vorbildliches Verhalten. Deine positive Einstellung beeinflusst den gesamten Unterricht positiv.
 
 
 # And much more! For more information, visit the docs: https://espanso.org/docs/
