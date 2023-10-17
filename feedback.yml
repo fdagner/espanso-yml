@@ -25,12 +25,9 @@ matches:
         - Deine Leidenschaft für das Lernen ist inspirierend, und ich ermutige dich, diesen Weg weiterzugehen.
         - Du hast eine positive Einstellung und gibst nie auf, auch wenn es schwierig wird.
         - Ich sehe, wie du dich immer wieder herausforderst und neue Ziele setzt. Das ist großartig!
-        - Du bist ein echter Teamplayer und motivierst auch deine Mitschüler.
         - Du hast bereits bewiesen, dass du Herausforderungen meistern kannst. Lass dich davon nicht aufhalten.
         - Ich sehe, wie du dich in deinem Selbstvertrauen stärkst und immer mehr an dich glaubst. Das ist großartig zu sehen!
         - Ich bin beeindruckt von deinem Engagement und deinem Einsatz, um kontinuierlich besser zu werden.
-        - Du hast das Zeug dazu, Großes zu erreichen. Glaube an dich selbst und verfolge deine Träume.
-        - Du hast eine natürliche Begabung in bestimmten Bereichen. Nutze sie und entwickle dein Talent weiter.
         - Du bist ein Vorbild für andere Schüler. Deine Hingabe und dein Fleiß sind inspirierend.
         - Du hast eine positive Energie, die andere um dich herum motiviert. Bleib immer so ermutigend!
         - Ich sehe, wie du aus Fehlern lernst und dich kontinuierlich verbesserst. Das ist ein Zeichen von echtem Wachstum.
@@ -154,6 +151,22 @@ matches:
         - Deine Mitarbeit im Unterricht ist schon ziemlich gut! Du bist aktiv und beteiligst dich regelmäßig am Geschehen. Mach so weiter, und du wirst großartige Ergebnisse erzielen!
         - Du machst eine hervorragende Arbeit im Unterricht! Deine Mitarbeit ist fast perfekt, und du trägst erheblich zur Qualität unserer Diskussionen bei. Weiter so, du bist auf dem richtigen Weg.
         - Deine Mitarbeit im Unterricht verdient die Höchstnote! Du bist äußerst engagiert, zeigst tiefe Einsichten und inspirierst andere. Du bist ein Vorbild für deine Mitschüler. Herzlichen Glückwunsch zu deiner herausragenden Leistung!
+
+
+  - trigger: ":feedback"
+    label: "Abgestuft Leistung"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Prima Leistung! Es gibt keine wesentlichen Fehler oder Verbesserungen, die notwendig wären.
+        - Alle Anforderungen der Aufgabe wurden erfüllt, und die Aufgabe wurde in einer sehr zufriedenstellenden Weise abgeschlossen.
+        - Du hast alle Anforderungen der Aufgabe erfüllt, aber es gibt einige wenige Fehler, die die Gesamtleistung beeinträchtigen. Die Abgabe bitte nochmal verbessern.
+        - Du hast die grundlegenden Anforderungen der Aufgabe zwar erfüllt, aber es gibt einige Fehler, die die Gesamtleistung beeinträchtigen. Weitere Arbeit und Verbesserungen sind notwendig.
+        - Du hast die grundlegenden Anforderungen der Aufgabe zwar erfüllt, aber es gibt erhebliche Mängel, Fehler oder Missverständnisse, die du dringend beheben musst.
+        - Du hast die meisten oder alle Anforderungen nicht erfüllt, und es besteht erheblicher Bedarf an einer grundlegenden Überarbeitung und Verbesserung der Aufgabe.
 
 
   - trigger: ":feedback"

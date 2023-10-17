@@ -48,6 +48,10 @@ matches:
     label: "ABS-Funktion"
     replace: "Verwende die ABS-Funktion, um den absoluten Wert einer Zahl zu berechnen."
 
+  - trigger: ":xls"
+    label: "Dateiname"
+    replace: "Verwende einen sinnvollen und nachvollziehbaren Dateinamen."
+
   - trigger: ':xls'
     label: 'Falscher Datentyp (Euro)'
     replace: 'Falscher Datentyp (Euro). Es ist wichtig, den richtigen Datentyp für die jeweiligen Daten zu verwenden, um korrekte Ergebnisse zu erzielen.'

@@ -87,7 +87,7 @@ matches:
 
 
   # Kontenplan
-  - triggers: [":bwr","kk"]
+  - triggers: [":bwr",":kk"]
     label: "Kontenplan"
     form: |
       [[choices]]
