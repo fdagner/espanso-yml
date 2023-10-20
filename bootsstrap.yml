@@ -831,7 +831,7 @@ matches:
   - trigger: '.card'
     replace: |
               <div class="card" style="width: 100%;max-width: 500px;" class="box" id="item1">
-              <div class="card-header alert-danger"><h5>Aufgabe</h5></div><div class="card-body"><p class="card-text">
+              <div class="card-header bg-primary text-white"><h5>Aufgabe</h5></div><div class="card-body"><p class="card-text">
               $|$
               </p><br></div>
               <ul class="list-group list-group-flush">
