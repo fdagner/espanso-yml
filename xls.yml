@@ -13,7 +13,7 @@ matches:
 
   - trigger: ":xls"
     label: Fehlende Formeln
-    replace: "Du hast keine Formeln in den {{cells.Zellen}} eingetragen."
+    replace: "Du hast keine Formeln in {{cells.Zellen}} eingetragen. Klicke auf die Zelle, in der du das Ergebnis deiner Formel haben möchtest. Gib ein Gleichheitszeichen (=) ein. Dies zeigt an, dass du eine Formel eingibst. Verwende die Rechenzeichen (+ für Addition, - für Subtraktion, * für Multiplikation, / für Division) entsprechend deinem Berechnungswunsch."
     vars:
       - name: "cells"
         type: form
@@ -22,7 +22,7 @@ matches:
 
   - trigger: ":xls"
     label: Fehlende Formel
-    replace: "Du hast keine Formel in {{cells.Zelle}} eingetragen."
+    replace: "Du hast keine Formel in {{cells.Zelle}} eingetragen. Klicke auf die Zelle, in der du das Ergebnis deiner Formel haben möchtest. Gib ein Gleichheitszeichen (=) ein. Dies zeigt an, dass du eine Formel eingibst. Verwende die Rechenzeichen (+ für Addition, - für Subtraktion, * für Multiplikation, / für Division) entsprechend deinem Berechnungswunsch."
     vars:
       - name: "cells"
         type: form
@@ -31,7 +31,7 @@ matches:
 
   - trigger: ":xls"
     label: Fehlende Formeln (alle)
-    replace: "Es fehlen sämtliche Formeln!"
+    replace: "Es fehlen sämtliche Formeln! Klicke auf die Zelle, in der du das Ergebnis deiner Formel haben möchtest. Gib ein Gleichheitszeichen (=) ein. Dies zeigt an, dass du eine Formel eingibst. Verwende die Rechenzeichen (+ für Addition, - für Subtraktion, * für Multiplikation, / für Division) entsprechend deinem Berechnungswunsch."
 
 
   # Tipp
