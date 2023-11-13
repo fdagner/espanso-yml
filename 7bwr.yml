@@ -1,0 +1,103 @@
+# espanso match file
+
+# For a complete introduction, visit the official docs at: https://espanso.org/docs/
+
+# You can use this file to define the base matches (aka snippets)
+# that will be available in every application when using espanso.
+
+# Matches are substitution rules: when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+
+  - trigger: ":7bwr"
+    label: "Fachbegriffe und Sprache"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Du hast die Fachsprache wirklich sehr gut verstanden und benutzt! Deine Arbeit zeigt ein überdurchschnittliches Verständnis und eine korrekte Formulierung.
+        - Dein Einsatz von Fachbegriffen überzeugt! Du verwendest viele Fachbegriffe in einem korrekten Zusammenhang, Forumlierungen werden von dir geschickt angewandt.
+        - Deine Verwendung von Fachbegriffen ist gut, aber versuche noch klarer zu sein. Du verwendest einige Fachbegriffe in einem korrekten Zusammenhang, Formulierungen werden von dir ordentlich umgesetzt.
+        - Du benutzt Fachbegriffe, aber es gibt noch Raum für Verbesserungen. Überprüfe, ob du alle wichtigen Begriffe korrekt anwendest, und versuche, deine Sätze richtig zu formulieren. 
+        - Die Verwendung von Fachbegriffen in deiner Arbeit ist akzeptabel, aber versuche, ein wenig genauer zu sein. Überlege immer, ob du auch die richtigen Begriffe und Formulierungen benutzt.
+        - Es sieht so aus, als ob du noch ein wenig Übung brauchst, um die Fachbegriffe besser zu verstehen. Nimm dir Zeit, die Bedeutung der Begriffe zu lernen und versuche deine Sätze besser zu formulieren.
+        - Deine Anwendung von Fachbegriffen benötigt mehr Übung. Überprüfe sie und versuche versuche deine Sätze korrekt zu formulieren.
+        - Es scheint, als ob du mehr Übung mit Fachbegriffen benötigst. Achte dabei besonders auf die korrekte Formulierung.
+        - Leider verwendest du kaum Fachbegriffe. Deine Sätze sind meist nicht richtig oder nachvollziehbar formuliert. Es sieht so aus, als ob du noch ein wenig Übung brauchst.
+
+  - trigger: ":7bwr"
+    label: "Rechtschreibung, Grammatik"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Deine Rechtschreibung, Grammatik und Satzbau sind hervorragend! Du zeigst ein beeindruckendes Verständnis für sprachliche Regeln und einen klaren, präzisen Satzbau.
+        - Deine Rechtschreibung und Grammatik sind wirklich gut. Der Satzbau ist größtenteils klar und verständlich. Achte darauf, kleine Fehler zu überprüfen, um deine Arbeit noch weiter zu verbessern.
+        - Deine Rechtschreibung und Grammatik sind solide. Der Satzbau ist meistens verständlich, aber versuche, einige Sätze zu variieren, um deine Schreibweise zu bereichern.
+        - Deine Rechtschreibung und Grammatik sind in Ordnung, aber es gibt Raum für Verbesserungen. Achte darauf, häufige Fehler zu überprüfen und arbeite an einem klareren Satzbau.
+        - Die Rechtschreibung und Grammatik in deiner Arbeit sind akzeptabel. Überprüfe jedoch häufiger auf Fehler, um die Qualität deiner schriftlichen Ausdrucksweise zu steigern.
+        - Es gibt leichte Schwächen in Rechtschreibung, Grammatik und Satzbau. Achte darauf, grundlegende Fehler zu korrigieren und experimentiere mit verschiedenen Satzstrukturen.
+        - Es scheint, als ob du noch ein wenig Übung mit Rechtschreibung, Grammatik und Satzbau benötigst. Konzentriere dich auf häufige Fehler und arbeite an einer klareren Schreibweise.
+        - Deine Arbeit zeigt deutliche Schwächen in Rechtschreibung, Grammatik und Satzbau. Nimm dir Zeit, um grundlegende Regeln zu üben und die Struktur deiner Sätze zu verbessern.
+        - Es ist offensichtlich, dass du viel Übung mit Rechtschreibung, Grammatik und Satzbau benötigst. Konzentriere dich auf die grundlegenden Inhalte und versuche, klarere, besser strukturierte Sätze zu schreiben.
+        - Es könnte hilfreich sein, zusätzliche Unterstützung bei Rechtschreibung, Grammatik und Satzbau zu suchen. Frag deinen Deutsch-Lehrer nach Übungen oder arbeite mit einem Mitschüler zusammen, um deine sprachlichen Fähigkeiten zu verbessern.
+
+
+  - trigger: ":7bwr"
+    label: "Berechnungen"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Deine Berechnungen sind klar, präzise und nachvollziehbar. Die Form deiner Darstellung macht es einfach, deine Schritte zu verstehen.
+        - Deine Berechnungen sind solide. Die Klarheit könnte an einigen Stellen verbessert werden, und die Form könnte etwas ordentlicher sein. 
+        - Deine Berechnungen sind in Ordnung, aber es gibt Raum für Verbesserungen. Manche Schritte sind möglicherweise nicht ganz klar, und die Form könnte sauberer sein. Achte darauf, Zwischenschritte besser zu erklären.
+        - Es gibt leichte Schwächen in der Klarheit, Form und Nachvollziehbarkeit deiner Berechnungen. Versuche, deine Schritte klarer zu erklären und achte auf eine ordentliches Schema.
+        - Deine Berechnungen zeigen deutliche Schwächen in Klarheit, Form und Nachvollziehbarkeit. Achte darauf, dass alle Schritte gut erklärt sind und die Form verbessert wird, um die Lesbarkeit zu erhöhen.
+
+  - trigger: ":7bwr"
+    label: "Verständnis"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Dein Verständnis betriebswirtschaftlicher Inhalte ist herausragend! Du zeigst eine tiefe Kenntnis der Inhalte und kannst sie klar und präzise erklären.
+        - Dein Verständnis betriebswirtschaftlicher Inhalte ist wirklich gut. Du demonstrierst eine solide Kenntnis der Inhalte und kannst sie überzeugend erklären.
+        - Dein Verständnis betriebswirtschaftlicher Inhalte ist solide. Es gibt jedoch Raum für Verbesserungen in einigen Bereichen. Achte darauf, alle Inhalte vollständig zu erfassen und sie klar zu erläutern. Erstelle als Vorbereitung zu einem Leistungsnachweis Mindmaps zu den verschiedenen Fachbegriffen und Themen.
+        - Dein Verständnis betriebswirtschaftlicher Inhalte ist in Ordnung, aber es gibt deutlichen Raum für Verbesserungen. Überprüfe, ob du alle Inhalte verstanden hast, und arbeite an eventuellen Unsicherheiten. Hefteinträge geben dir einen Überblick, lerne stets auch mit einer Wiederholung der Aufgaben aus dem Arbeitsheft.
+        - Dein Verständnis betriebswirtschaftlicher Inhalte ist akzeptabel, aber es gibt deutliche Lücken. Bemühe dich, alle Inhalte gründlich zu lernen und achte darauf, Unsicherheiten zu klären. Hefteinträge geben dir einen Überblick, lerne stets auch mit einer Wiederholung der Aufgaben aus dem Arbeitsheft.
+        - Es gibt leichte Schwächen in deinem Verständnis betriebswirtschaftlicher Inhalte. Bemühe dich, alle Inhalte gründlich zu lernen und achte darauf, Unsicherheiten zu klären. Suche dir für den nächsten Leistungsnachweis einen Lernpartner. Erklärt euch die Themen gegenseitig. Hefteinträge geben dir einen Überblick.
+        - Dein Verständnis betriebswirtschaftlicher Inhalte weist deutliche Schwächen auf. Es ist wichtig, zusätzliche Übungen zu machen, um alle Inhalte vollständig zu begreifen. Suche dir für den nächsten Leistungsnachweis einen Lernpartner. Erklärt euch die Themen gegenseitig. Hefteinträge geben dir einen Überblick.
+        - Es ist offensichtlich, dass du noch viel Übung benötigst, um eine solide Grundlage im Verständnis betriebswirtschaftlicher Inhalte aufzubauen. Suche dir für den nächsten Leistungsnachweis einen Lernpartner. Erklärt euch die Themen gegenseitig. Wiederhole alle Aufgaben aus dem Arbeitsheft.
+
+  - trigger: ":7bwr"
+    label: "Aufgaben allgemein"
+    form: |
+      [[choices]]
+    form_fields:
+      choices:
+        type: list
+        values:
+        - Deine Bearbeitung der Aufgaben ist hervorragend! Du gehst systematisch vor und zeigst ein tiefes Verständnis für die gestellten Anforderungen.
+        - Deine Bearbeitung der Aufgaben ist wirklich gut. Du arbeitest effektiv und erzielst ein überzeugendes Ergebnis.
+        - Deine Bearbeitung der Aufgaben ist solide. Du erzielst ein zufriedenstellendes Ergebnis.
+        - Die Bearbeitung deiner Aufgaben ist in Ordnung, aber es gibt spürbare Schwächen. Bemühe dich darum, die gestellten Anforderungen besser zu verstehen.
+        - Es gibt einige Schwächen in deiner Bearbeitung der Aufgaben. Bemühe dich darum, die gestellten Anforderungen besser zu verstehen.
+        - Deine Bearbeitung der Aufgaben weist leider deutliche Schwächen auf. 
+
+  - trigger: ":7bwr"
+    label: "Note"
+    replace: "Du hast {{variable.Punkte}} Punkte erzielt. Das ergibt die Note {{variable.Note}}."
+    vars:
+      - name: "variable"
+        type: form
+        params:
+          layout: "Punkte: [[Punkte]] Note: [[Note]]"

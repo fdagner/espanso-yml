@@ -9,29 +9,29 @@
 # it gets replaced by the "replace" string.
 matches:
 
-
   # Aktienkauf
   - trigger: ":bwr"
     label: "Aktienkauf"
-    replace: | 
+    replace: |
       Kurswert (Stückkurs · Stückzahl)
-      + Spesen (1 % vom Kurswert)
-      = Banklastschrift
+       + Spesen (1 % vom Kurswert)
+       = Banklastschrift
 
   # Aktienverkauf
+
   - trigger: ":bwr"
     label: "Aktienverkauf"
-    replace: | 
+    replace: |
       Kurswert (Stückkurs · Stückzahl)
-      + Spesen (1 % vom Kurswert)
-      = Banklastschrift
+       + Spesen (1 % vom Kurswert)
+       = Banklastschrift
 
-      Bankgutschrift beim Verkauf 	
-      - Banklastschrift beim Kauf
-      = Kursgewinn 
-      + Dividendenerträge
-      - Depotgebühren 
-      = Gesamtertrag
+      Bankgutschrift beim Verkauf
+       - Banklastschrift beim Kauf
+       = Kursgewinn
+       + Dividendenerträge
+       - Depotgebühren
+       = Gesamtertrag
 
   # Effektive Verzinsung
 
@@ -39,24 +39,24 @@ matches:
     label: "Effektive Verzinsung"
     replace: |
       Zinsen
-      + Disagio
-      = Kreditkosten
+       + Disagio
+       = Kreditkosten
 
       peff = 
-
 
   # Einkaufskalkulation
   
   - trigger: ":bwr"
     label: "Einkaufskalkulation"
+    backend: Inject
     replace: |
-        Listeneinkaufspreis (LEP)
-        - Liefererrabatt (LR)
-        = Zieleinkaufspreis (ZEP)
-        - Liefererskonto (LR)
-        = Bareinkaufspreis (BEP)
-        + Bezugskosten (BZK)
-        = Einstandspreis (EP)
+      Listeneinkaufspreis (LEP)
+       - Liefererrabatt (LR)
+       = Zieleinkaufspreis (ZEP)
+       - Liefererskonto (LR)
+       = Bareinkaufspreis (BEP)
+       + Bezugskosten (BZK)
+       = Einstandspreis (EP)
   
   # Verkaufskalkulation
 
@@ -64,27 +64,25 @@ matches:
     label: "Verkaufskalkulation"
     replace: |
       Selbstkosten (SK)
-      + Gewinn
-      = Barverkaufspreis (BVP)
-      + Kundenskonto (KS)
-      = Zielverkaufspreis
-      + Kundenrabatt (KR)
-      = Listenverkaufspreis (LVP)
+       + Gewinn
+       = Barverkaufspreis (BVP)
+       + Kundenskonto (KS)
+       = Zielverkaufspreis
+       + Kundenrabatt (KR)
+       = Listenverkaufspreis (LVP)
 
   # Skonto
 
   - trigger: ":bwr"
     label: "Skonto"
-    replace: |  
+    replace: |
       Rechnungsbetrag
-      - Skonto brutto
-      = Überweisungsbetrag
+       - Skonto brutto
+       = Überweisungsbetrag
 
       Skonto brutto
-      - Umsatzsteuer
-      = Skonto netto
-
-
+       - Umsatzsteuer
+       = Skonto netto
 
   # Kontenplan
   - triggers: [":bwr",":kk"]
